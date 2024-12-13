@@ -19,6 +19,11 @@ public class Book {
         return this.title;
         }
 
+        //책 저자 조회 (추가~~)
+        public String getAuthor() {
+        return this.author;
+        }
+
         // 책 대여여부 조회
         public boolean getIsAvailable() {
         return this.isAvailable;
